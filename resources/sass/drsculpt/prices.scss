@@ -1,0 +1,175 @@
+@import "../variables";
+
+/* Articles */
+#prices {
+    .carousel {
+        background: linear-gradient(90deg, #003f82, #00b4ff);
+        min-height: 120vh;
+
+        h2 {
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: 800;
+            text-align: center;
+        }
+
+        .carousel-header {
+            ul {
+                background-color: #ffffff;
+                border-radius: 20px;
+
+                li {
+                    border-radius: 16px;
+
+                    a,
+                    a:hover,
+                    a:active {
+                        color: #000000;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+
+                    &.active {
+                        background-color: #02b3ff;
+                        a {
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+
+        #prices-carousel {
+            .owl-item {
+                margin-top: 40px;
+                max-width: 900px;
+
+                .item {
+                    background-color: #ffffff;
+                    min-height: 50vh;
+                    opacity: 1;
+
+                    img {
+                        height: 100%;
+                    }
+
+                    h3 {
+                        color: #005ab4;
+                        font-size: 24px;
+                        line-height: 30px;
+                        font-weight: 800;
+                    }
+
+                    table {
+                        tr {
+                            td {
+                                font-weight: bold;
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+
+                &.active {
+                    margin-top: 0;
+                    margin-bottom: 0;
+
+                    .item {
+                        height: calc(80px + 50vh);
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .owl-dots {
+                position: absolute;
+                left:50%;
+                bottom: -160px;
+                transform:translateX(-50%);
+
+                .owl-dot {
+                    span{
+                        width: 14px;
+                        height: 14px;
+                        border: none;
+                        background: #ffffff66;
+                        margin: 5px;
+                    }
+
+                    &.active {
+                        span{
+                            background: #fff;
+                        }
+                    }
+                }
+            }
+
+            .owl-nav {
+                position: absolute;
+                left:50%;
+                bottom: -120px;
+                transform:translateX(-50%);
+
+                button {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 100px;
+                    box-shadow: 4px 4px 10px -10px #000;
+                    background-color: #fff;
+                    color: #18181d;
+                    font-size: 25px;
+
+                    &:hover {
+                        color: #18181d;
+                    }
+                }
+            }
+        }
+
+        .note {
+            font-size: 18px;
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #prices {
+        .carousel {
+            #prices-carousel {
+                .owl-item {
+                    margin-top: 0;
+
+                    &.active {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+
+                    .item {
+                        min-height: 70vh;
+                        
+                        .image{
+                            min-height: 150px;
+                        }
+
+                        h3 {
+                            font-size: 16px;
+                        }
+                        
+                        p {
+                            font-size: 14px;
+                        }
+    
+                        table {
+                            tr {
+                                td {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

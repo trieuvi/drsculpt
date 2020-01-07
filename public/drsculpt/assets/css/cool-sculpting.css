@@ -1,0 +1,90 @@
+#cool-sculpting .slider {
+  background-image: url("/drsculpt/assets/img/cool-sculpting-bg.svg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#cool-sculpting .slider h2 {
+  color: #fff;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+#cool-sculpting .slider h2 span.copy-right {
+  font-size: 38px;
+  position: relative;
+  top: -42px;
+}
+
+#cool-sculpting .slider h4 {
+  color: #fff;
+  font-size: 40px;
+}
+
+#cool-sculpting .howitwork {
+  background-color: #F8F9FA;
+  padding-top: 350px;
+}
+
+#cool-sculpting .howitwork .row-1 img {
+  width: 100%;
+}
+
+#cool-sculpting .howitwork .row-1 h3 {
+  font-size: 60px;
+  color: #003F82;
+  font-weight: bold;
+}
+
+#cool-sculpting .howitwork .row-1 p strong {
+  color: #0061B9;
+}
+
+#cool-sculpting .howitwork .row-2 img {
+  width: 100%;
+  height: 350px;
+}
+
+#cool-sculpting .where-treat {
+  background-color: #fff;
+}
+
+#cool-sculpting .where-treat h3 {
+  font-size: 60px;
+  color: #003F82;
+  font-weight: bold;
+}
+
+#cool-sculpting .where-treat img {
+  width: 100%;
+}
+
+#cool-sculpting .where-treat a {
+  position: relative;
+  bottom: 75px;
+}
+
+#cool-sculpting .where-treat a:hover {
+  text-decoration: none;
+}
+
+#cool-sculpting .journey {
+  background-color: #F8F9FA;
+}
+
+#cool-sculpting .journey h3 {
+  font-size: 60px;
+  color: #003F82;
+  font-weight: bold;
+  text-align: center;
+}
+
+#cool-sculpting .journey .col-img {
+  background-color: #F1F1F1;
+  height: 380px;
+}
+
+#cool-sculpting .journey .col-img i {
+  font-size: 100px;
+}
+

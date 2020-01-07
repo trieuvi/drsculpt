@@ -1,0 +1,52 @@
+@import "../variables";
+
+/* FAQs */
+#faqs-content {
+    h2 {
+        font-size: 38px;
+        font-weight: 300;
+        line-height: 44px;
+    }
+
+    ul {
+        li {
+            padding: 15px 0;
+            border-bottom: 1px solid #00b4ff;
+
+            a {
+                font-size: 22px;
+                font-weight: 600;
+                color: #333;
+                text-decoration: none;
+            }
+
+            i {
+                text-align: right;
+                color: #333;
+                font-size: 36px;
+                transition: all 0.5s;
+                transition-timing: ease-in-out;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #sub-header h3 {
+        font-size: 30px;
+    }
+
+    #faqs-content {
+        h2 {
+            font-size: 20px;
+        }
+    
+        ul {
+            li {
+                a {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

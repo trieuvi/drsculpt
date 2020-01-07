@@ -1,0 +1,55 @@
+@import '../variables';
+
+	/* Privacy */
+	#sub-header {
+		border-bottom: 1px solid #707070;
+	}
+	#sub-header h3 {
+		font-size: 40px;
+		font-weight: 200;
+		color: #2A2A2A;
+	}
+	#sub-header ul.sub-items li a {
+		color: #2A2A2A;
+	}
+	#sub-header ul.sub-items li a:hover {
+		text-decoration: none;
+	}
+	#sub-header ul.sub-items li.active a {
+		color: #A0A0A0;
+	}
+	#privacy-content h4{
+		color: #2A2A2A;
+		font-size: 30px;
+	}
+	#privacy-content h4 span {
+		padding-top: 200px; 
+		margin-top: -200px;
+	}
+	#privacy-content p{
+		color: #2A2A2A;
+		font-size: 18px;
+	}
+	#privacy-content .col-l span{
+		font-weight: bold;
+		padding-top: 200px; 
+		margin-top: -200px;
+	}
+	#privacy-content .col-r ul li a {
+		color: #005EB8;
+		font-size: 18px;
+	}
+	#privacy-content .col-r p.head-link a {
+		color: #2A2A2A;
+		font-size: 18px;
+	}
+	#privacy-content .col-r p.head-link a:hover, #privacy-content .col-r p.head-link a:active {
+		text-decoration: none;
+	}
+
+    @media ( max-width: 767px ) {
+
+		#sub-header h3 {
+			font-size: 30px;
+		}
+    }

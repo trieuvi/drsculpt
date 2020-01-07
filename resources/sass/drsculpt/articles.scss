@@ -1,0 +1,20 @@
+@import "../variables";
+
+/* Articles */
+#articles-content {
+    p {
+		font-size: 18px;
+		color: #2A2A2A;
+
+		strong {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+    #sub-header h3 {
+        font-size: 30px;
+    }
+}
