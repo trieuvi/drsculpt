@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: trieuvi/sculpt:v1
+      - image: trieuvi/sculpt:v2
     working_directory: /var/www/drsculpt
     steps:
       - checkout
