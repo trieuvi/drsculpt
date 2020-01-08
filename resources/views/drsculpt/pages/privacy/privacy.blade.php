@@ -5,7 +5,7 @@
 @section('content')
 
     <div class="wrapper">
-        @include('drsculpt.pages.privacy.elements.sub-header')
+        {{-- @include('drsculpt.pages.privacy.elements.sub-header') --}}
         @include('drsculpt.pages.privacy.elements.content')
     </div>
 
